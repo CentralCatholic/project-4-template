@@ -1,0 +1,84 @@
+SimpleSBuilder
+Data:  Len: 0 Cap: 10
+Data: Hello! Len: 6 Cap: 12
+
+Hello! equals Hello!
+
+Testing constructor methods
+Data: a string Len: 8 Cap: 16
+Data:  another string Len: 15 Cap: 30
+Data:  Len: 0 Cap: 10
+
+Testing Append methods
+Data: a string another string Len: 23 Cap: 46
+Data: a string another string and another Len: 35 Cap: 46
+Data: a string another string and another another string Len: 50 Cap: 100
+Data: a string another string and another another string!! Len: 52 Cap: 100
+Data: ...appending data Len: 17 Cap: 34
+
+Testing copy constructor
+Data: a string another string and another another string!! Len: 52 Cap: 104
+a string another string and another another string!!
+equals
+a string another string and another another string!!
+
+Testing charAt method
+ another string
+
+Testing delete method
+we build a string of everything
+we build everything
+build everything
+build
+
+Testing deleteCharAt method
+Xhere is a funney little stringh
+here is a funney little stringh
+here is a funny little stringh
+here is a funny little string
+here is a funny little string
+
+Testing indexOf method
+who was found at 0
+whoing was found at 7
+whoville was found at 22
+whoviller was found at -1
+whom was found at -1
+who was found at 7
+who was found at 7
+who was found at 22
+who was found at -1
+
+Testing insert and replace methods
+Data: this is very cool Len: 17 Cap: 24
+Data: Yes, I think this is very cool Len: 30 Cap: 60
+Data: Yes, I think this is very cool to insert at the end. Len: 52 Cap: 60
+Data: Yes, I think this is very cool to insert at the end. Len: 52 Cap: 60
+Data: Yes, I think it is fun to insert at the end. Len: 44 Cap: 60
+Data: No, it is definitely bogus to insert at the end. Len: 48 Cap: 60
+
+Testing substring method
+assign
+hard
+work
+
+Testing MySBuilder return types
+Hello there MySBuilder fans!
+Hello there CS0445 fans!!
+
+Testing split method
+This is a neat operation
+This
+is
+a
+neat
+operation
+
+--This--is----kind-of---wacky--!--
+This
+is
+kind
+of
+wacky
+!
+
